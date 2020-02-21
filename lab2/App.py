@@ -84,5 +84,6 @@ def add_student_to_class(cId):
 @app.route('/students/printall', methods = ['GET'])
 def getAll():
     return DB
-if __name__ == "__main__":
-    app.run(debug = True)
+
+#if __name__ == "__main__":
+#    app.run(debug = True)
